@@ -32,9 +32,9 @@ previewButton.addEventListener('click', () => {
 // }
 
 
-previewButton.addEventListener('invalid', () => {
-  alert('입력하지 않은 칸이 존재합니다.')
-})
+// previewButton.addEventListener('invalid', () => {
+//   alert('입력하지 않은 칸이 존재합니다.')
+// })
 
 
 
