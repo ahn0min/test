@@ -1,0 +1,9 @@
+.side_bar_nav {
+  border-bottom: none;
+  width: 180px;
+  margin: 0 auto;
+  padding-left: 40px;
+}
+.side_bar_nav li {
+  padding-top: 15px;
+}
