@@ -1,0 +1,14 @@
+.content_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding: 20px 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .content_container {
+    display: block;
+    padding: 20px;
+    
+    
+  }
+}

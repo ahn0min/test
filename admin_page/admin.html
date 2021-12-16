@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>관리자 페이지</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./nav.css">
+  <link rel="stylesheet" href="./aside.css">
+  <link rel="stylesheet" href="./content.css">
+  <link rel="stylesheet" href="./form.css">
+  <link rel="stylesheet" href="./product.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>header</header>
+    <nav class="header_nav">
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">로그인</a></li>
+      </ul>
+    </nav>
+    <div class="content_container">
+      <aside class="side_bar">
+        <nav class="side_bar_nav">
+          <h3 class="side_bar_title">관리자 페이지</h3>
+          <div class="side_bar_menu_wrap">
+            <ul class="side_bar_menu">
+              <li><a href="#">> 상품등록</a></li>
+              <li><a href="#">> 상품관리</a></li>
+              <li><a href="#">> 유저 문의사항</a></li>
+            </ul>
+          </div>
+        </nav>
+      </aside>
+      <section class="form_section">
+        <form id="input_product_form"action="./product_page.html" method="post" name="input_product_form">
+          <h2>상품등록</h2>
+          <div class="form_control">
+            <div class="form_control_column">
+              <label for="input_product_image">상품이미지</label>
+              <input 
+                type="file" 
+                id="input_product_image" 
+                accept="image/png, iage/jpeg" 
+                alt="상품이미지" 
+                multiple
+              >
+            </div>
+          </div>
+          <div class="form_control">
+            <div class="form_control_column">
+              <label for="input_product_name">상품명</label>
+              <input 
+                type="text"
+                id="input_product_name" 
+                name="input_product_name" 
+                placeholder="상품명을 입력하세요" 
+                required
+                autofocus
+              >
+            </div>
+          </div>
+          <div class="form_control">
+            <div class="form_control_column">
+              <label for="input_product_number">모델번호</label>
+              <input 
+                type="text"
+                id="input_product_number" 
+                name="input_product_number" 
+                placeholder="모델번호를 입력하세요"
+                required
+              >
+            </div>
+            <div class="form_control_column">
+              <label for="product_price">발매가</label>
+              <input 
+                type="text"
+                id="input_product_price" 
+                name="input_product_price" 
+                placeholder="발매가를 입력하세요"
+                required
+              >
+            </div>
+          </div>
+          <div class="form_control">
+            <div class="form_control_column">
+              <label for="input_product_year">출시년도</label>
+              <input 
+                type="text"
+                id="input_product_year" 
+                name="input_product_year" 
+                placeholder="출시년도를 입력하세요"
+                required
+              >
+            </div>
+            <div class="form_control_column">
+              <label for="input_product_color">색상</label>
+              <input 
+                type="text"
+                id="input_product_color" 
+                name="input_product_color" 
+                placeholder="색상을 입력하세요"
+                required
+              >
+            </div>
+          </div>
+          <div class="form_control_button">
+            <input type="button" class="preview_button" value="미리보기">
+            <input type="submit" class="post_button" value="등록하기">
+          </div>
+        </form>
+      </section>
+      <section class="product_section">
+        <h2>미리보기</h2>
+        <div class="product_image_wrap">
+          <img class="product_image" src="" alt="상품 이미지">
+          <div class="product_image_change_button">
+            <button id="prev_button"><</button>
+            <button id="next_button">></button>
+          </div>
+        </div>
+        <div class="product_info_wrap">
+          <h3 class="product_name">상품명</h3>
+          <div class="detail_product_wrap">
+            <dl class="detail_product">
+              <div class ="detail_box">
+                <dt>가격</dt>
+                <dd class="product_price">원</dd>
+              </div>
+              <div class ="detail_box">
+                <dt>모델번호</dt>
+                <dd class="product_number">번호</dd>
+              </div>
+              <div class ="detail_box">
+                <dt>출시일</dt>
+                <dd class="product_year">년/원/일</dd>
+              </div>
+              <div class ="detail_box">
+                <dt>색상</dt>
+                <dd class="product_color">색상</dd>
+              </div>
+            </dl>
+          </div>
+          <div class="product_chart_wrap">
+            <ul class="product_chart">
+              <li class="chart_a">chart A</li>
+              <li class="chart_b">chart B</li>
+              <li class="chart_c">chart C</li>
+              <li class="chart_d">chart D</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    </div>
+    <footer>
+      footer
+    </footer>
+  </div>
+  <script src="./image_render.js"></script>
+  <script src="./form_control.js"></script>
+</body>
+</html>
+

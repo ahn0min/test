@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* topbar */
+
+header nav {
+  width: 100%;
+  height: 68px;
+  background-color: #3B4890;
+}
+
+#home {
+  float: left;
+}
+
+#home #logo {
+  background-color: #3B4890;
+  border: none;
+  color: white;
+  margin: 18px 0px 0 30px;
+  font-size: 25px;
+  font-style: italic;
+}
+
+#user {
+  float: right;
+  margin-top: 12px;
+}
+
+#user #userBtn {
+  background-color: #3B4890;
+  border: none;
+  color: white;
+  font-size: 25px;
+}
+
+#userImg {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 70px;
+  margin: 6px;
+}
+
+
+/* main feed */
+
+article {
+  display: flex;
+}
+
+article .mainFeed {
+  display: inline;
+}
+
+
+/* 왼쪽 파트 */
+
+article .first {
+  float: left;
+  margin: 10px 10px 0px 10px;
+}
+
+article .first #shoesImg {
+  border: solid 1px black;
+  width: 500px;
+  height: 300px;
+  background-image: url('https://static.shoeprize.kr/open_raffle/main_carousel/None/DH2482-100-shoeprize-PEACEMINUSONE-X-NIKE-KWONDO-1-64542-1637107326024.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+article .first .shoes {
+  border: solid 1px black;
+  margin-bottom: 10px;
+}
+
+article .container {
+  display: grid;
+  border: solid 0.5px black;
+  grid-template-columns: 250px 250px;
+  grid-template-rows: 100px 100px;
+}
+
+article .container .chart {
+  border: solid 0.5px black;
+}
+
+
+/* 게시글 파트 */
+
+article .second {
+  float: right;
+  flex-grow: 1;
+  /* border: solid 1px black; */
+  margin: 10px;
+}
+
+article .second table {
+  width: 100%;
+  border-top: 2px solid #3b4890;
+  border-collapse: collapse;
+}
+
+article .second table tr,
+td {
+  height: 35px;
+  text-align: center;
+}
+
+article .second table .feedList {
+  border-bottom: 1px solid gray;
+}
+
+article .second table #feedNav {
+  border-bottom: 2px solid #3b4890;
+}
+
+article .second .navigation {
+  text-align: center;
+}
+
+
+/* footer */
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3B4890;
+  color: white;
+  height: 50px;
+  text-align: center;
+}

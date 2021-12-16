@@ -14,12 +14,11 @@ const getPosts = async (url) => {
 
 // 문제점: 요청순서는 동기지만 받아오는 순서는 다르기 때문에 매번 순서가 다르게 렌더링된다.
 // 해결법: for ... of 문 사용, map 과 Promise.all를 사용 (아직 해보진 않았다.)
-for(let i = 1; i < 20; i++) {
+for(let i = 1; i < 10; i++) {
   const url = `https://jsonplaceholder.typicode.com/todos/${i}`;
 
   getPosts(url)
   .then(data => {
-    console.log(data)
     const {userId, id, title, completed} = data;
   
     tableBody.innerHTML += `

@@ -1,0 +1,88 @@
+[
+  [{
+          "number": "공지",
+          "title": "공지사항입니다.",
+          "author": "관리자",
+          "likes": 10,
+          "views": 201
+      },
+      {
+          "number": "공지",
+          "title": "공지사항입니다.",
+          "author": "관리자",
+          "likes": 10,
+          "views": 201
+      }
+  ],
+  [{
+          "number": 10,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 9,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 8,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 7,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 6,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 5,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 4,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 3,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 2,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      },
+      {
+          "number": 1,
+          "title": "테스트용 게시글입니다.",
+          "author": "학생1",
+          "likes": 20,
+          "views": 21
+      }
+  ]
+]
